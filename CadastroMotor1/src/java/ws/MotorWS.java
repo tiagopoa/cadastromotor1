@@ -47,6 +47,7 @@ public class MotorWS {
         listaMotores.add(new Motor(2,"Motor2", "XXX", "Veicular"));
         listaMotores.add(new Motor(3,"Motor3", "XXX", "Veicular"));
         return listaMotores;
+        //return null;
     }
 
     /**

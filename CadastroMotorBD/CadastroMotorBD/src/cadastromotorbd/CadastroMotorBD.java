@@ -53,11 +53,17 @@ public class CadastroMotorBD {
             String u = resultado.getString("uso");
             
             System.out.println("Nome: " + n + " Descriçao: " + d + " Uso: " + u);
+            
             }
+            
+            
             
             //Passo 5: fechar conexao
             comando.close();
             conexao.close();
+            
+            comandoSelect.close();
+            
             
             
         } catch (ClassNotFoundException ex) {
